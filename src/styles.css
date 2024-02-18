@@ -1,3 +1,8 @@
+:root{
+    --c-primary: #CDA274;
+    --c-secondary: #292F36;
+    --c-tertiary: #F4F0EC;
+}
 body {
-    background-color: #83b8c5;
+
 }
