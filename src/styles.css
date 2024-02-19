@@ -4,5 +4,198 @@
     --c-tertiary: #F4F0EC;
 }
 body {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    .txt__color{
+        color: var(--c-primary);
+        font-style: normal;
+    }
+    .txt__italic{
+        font-weight: bold;
+        font-style: normal;
+    }
+    button{
+        background: 0;
+        border-style: none;
+        margin-left: 0;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    h2{
+        margin-left: 0.5rem;
+    }
+    .nav__logo{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav__buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .banner{
+        margin-bottom: 5rem;
+    }
+    .banner__holder{
+        height:12rem;
+        background-size: cover;
+        background-image: url("assets/images/Images.svg");
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .banner__holder-txt{
+        background-color: white;
+        border-top-left-radius: 1.2rem;
+        border-top-right-radius: 1.2rem;
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    h1 {
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+    .banner__holder-txt-p{
+        margin-bottom: 0;
+        margin-top: 0.2rem;
+    }
+    .page{
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+    .photography{
+        margin-bottom: 5rem;
+    }
+    h3{
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    .unsplash{
+        margin-bottom: 5rem;
+        width: auto;
+        background-color: var(--c-tertiary);
+        height: 35rem;
+        border-radius: 3rem;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .unsplash__p{
 
+    }
+    .unsplash__images{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .pexels{
+        margin-bottom: 5rem;
+        width: auto;
+        background-color: var(--c-tertiary);
+        height: 35rem;
+        border-radius: 3rem;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .pexels__images{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .font{
+        margin-bottom: 5rem;
+        width: auto;
+        background-color: var(--c-tertiary);
+        height: 25rem;
+        border-radius: 3rem;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .font__holder{
+        display: flex;
+        flex-direction: row;
+    }
+    .font__holder--p{
+        width: 40%;
+    }
+    .font__holder--A{
+        font-size: 5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 2rem;
+        margin-left: 4rem;
+        font-weight: bolder;
+    }
+    .font__holder--a{
+        font-size: 5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: lighter;
+    }
+    .footer__main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 15rem;
+    }
+    .footer__main--social{
+    }
+    .footer__main--social--logo{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer__main--social--buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 15rem;
+    }
+    .footer__main--pages{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer__main--services{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer__main--contact{
+    }
+    .footer__main--contact--p{
+        margin-bottom: 2rem;
+    }
+    .footer__main--contact--txt{
+        font-size: 0.9rem;
+    }
+    .footer__copyright{
+        height: 12rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer__copyright--p{
+        font-size: medium;
+    }
 }
